@@ -3,6 +3,7 @@ import './App.css';
 
 import { TrialUseState } from './components/TrialUseState/index';
 import { TrialUseEffect } from './components/TrialUseEffect/index';
+import { TrialCustomHooks } from './components/TrialCustomHooks/index';
 
 class App extends React.Component {
   render() {
@@ -17,6 +18,10 @@ class App extends React.Component {
           <div>
             <h3>useEffect</h3>
             <TrialUseEffect />
+          </div>
+          <div>
+            <h3>Costom Hooks</h3>
+            <TrialCustomHooks initialValue={0} />
           </div>
         </div>
       </div>
