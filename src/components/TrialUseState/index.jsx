@@ -1,6 +1,4 @@
-// src/comopnents/TrialUseState/index.tsx
-import * as React from 'react';
-const useState = React.useState;
+import React, { useState } from 'react';
 
 export const TrialUseState = ({ initialValue }) => {
   const [count, setCount] = useState(initialValue);

@@ -1,7 +1,4 @@
-import * as React from 'react';
-
-const useState = React.useState;
-const useEffect = React.useEffect;
+import React, { useState, useEffect } from 'react';
 
 export const TrialUseEffect = () => {
   const [flg, setFlg] = useState(false);
